@@ -1,0 +1,143 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border {
+    /* width: 100%; */
+    background-color: hsl(216, 50%, 16%);
+    max-width: 550px;
+    padding:20px 20px;
+    border-radius: 14px;
+    position: relative;
+}
+
+
+
+ .image {
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} 
+
+.para {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.par {
+    max-width: 250px;
+    line-height: 22px;
+    font-size: 14px;
+    color: hsl(215, 19%, 32%);
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.etherum {
+    color: hsl(178, 100%, 50%);
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.etherum img {
+    padding-right: 4px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: hsl(215, 32%, 27%);
+    font-weight: 900;
+}
+
+.clock img {
+    padding-right: 4px;
+}
+
+.coverage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 16px;
+}
+
+.last {
+    color: hsl(0, 0%, 100%);
+    margin-top: 14px;
+}
+
+
+.las {
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.last-img {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+
+i {
+    color: hsl(215, 32%, 27%);
+
+    font-style: normal;
+    font-size: 12px;
+    padding-left: 16px;
+}
+
+i span {
+    color: hsl(0, 0%, 100%);
+
+    font-weight: 900;
+    transition: color 200ms ease-in;
+}
+
+i span:hover, i span:active {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.imag{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    display: none;
+}
+
+.para:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.image:hover{
+    /* display: block; */
+    cursor: pointer;
+    background-color: hsl(178, 100%, 50%);
+}
+
+@media(max-width:300px){
+    
+    body{
+        /* min-width: 500px; */
+    }
+}
